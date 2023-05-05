@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+header{
+display: flex;
+align-items: baseline;
+justify-content: space-around;
+background-color: black;
+padding: 2px 20px;
+}
+header h1{
+    color: white;
+    width: 250px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    
+
+}
+.display-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin: 0px 0px;
+    height: 400px; 
+    color: white;
+    background-color:rgba(7, 6, 6, 0.644);
+}
+.display-image img{
+    border-radius: 20%;
+    padding: 0px 20px;
+}
+.dis-info{
+    height: 80%;
+    padding: 90px 200px;
+}
+img{
+width: 100%;
+}
+.about{
+     display:grid; 
+     grid-template-columns: 1fr 4fr;
+     align-items: center;
+    margin: 0px 0px;
+    height: 450px; 
+    background-color:rgba(11, 11, 11, 0.744);
+    color: white;
+    gap: 100PX;
+}
+.display-img{
+    padding: 0 50px;
+   
+}
+.display-img img{
+    width: 400px;
+  
+
+}
+.about-info{
+    padding: 0  100px 0 0;
+    height: 300px; 
+    line-height: 20px;
+}
+.text1{
+    color: white;
+    background-color:rgba(11, 11, 11, 0.82);
+}
+.text1 h1{
+    padding:0 30px;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:  0 20px; 
+    align-items: start;
+    gap: 10px;
+    margin: 0px;
+    align-items: start;
+    background-color: rgba(7, 6, 6, 0.644);
+}
+.card2{
+    background-color:rgba(74, 66, 66, 0.612);
+    padding: 0 5px ;
+    border-radius: 10px;
+    width: 2px 2px;
+    color: rgb(240, 227, 227);
+    margin: 10px 100px;
+    size: 5px;
+}
+.icon1{
+    color: black;
+    padding: 0 60px;
+}
+.my-skill h2{
+   padding: 0px 40px; 
+}
+.card3{
+    background-color:rgba(74, 66, 66, 0.612);
+    padding: 0 5px ;
+    border-radius: 10px;
+    width: 2px 2px;
+    color: rgb(240, 227, 227);
+    margin: 10px 100px;
+    size: 5px;
+}
+.icon2{
+    color: black;
+    padding: 0 60px;
+}
+.card4{
+    background-color:rgba(74, 66, 66, 0.612);
+    padding: 0 5px ;
+    border-radius: 10px;
+    width: 2px 2px;
+    color: rgb(240, 227, 227);
+    margin: 10px 100px;
+    size: 5px;
+}
+.icon3{
+    color: black;
+    padding: 0 60px;
+}
+
+
+.my-skill2 h2{
+    padding: 0px 40px;
+}
+.my-skill3 h2{
+    padding: 0px 40px;   
+}
+
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:  0 20px; 
+    align-items: start;
+    gap: 10px;
+    margin: 0px;
+    align-items: start;
+    background-color: rgba(7, 6, 6, 0.644);
+}
+.card1{
+    background-color:rgba(74, 66, 66, 0.612);
+    padding: 0 30px ;
+    border-radius: 10px;
+    width: 20px 40px;
+    color: white;
+    margin: 10px 40px;
+}
+.text{
+    color: white;
+    background-color:rgba(11, 11, 11, 0.82);
+}
+.text h1{
+    padding:0 30px;
+}
+.connect{
+    background-color: black;
+    color: white;
+    padding: 0 100px;
+}
+.profile{
+    padding: 20px 5px;
+}
+footer{
+    background-color: black;
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: 4fr 1fr;
+}
+
+
